@@ -1,0 +1,3 @@
+* Gmail
+* Word
+* Visual Studio Code

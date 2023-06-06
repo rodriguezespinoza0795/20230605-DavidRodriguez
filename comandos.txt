@@ -1,0 +1,26 @@
+mkdir 20230605-DavidRodriguez
+cd 20230605-DavidRodriguez/
+git init
+git remote add origin git@github.com:rodriguezespinoza0795/20230605-DavidRodriguez.git
+touch comandos.txt main.js index.html
+git add .
+git commit -m"commit 01 de DavidRodriguez"
+git push origin main
+
+git branch feature
+git checkout feature
+mkdir Hardware Software SeguridadInformatica
+touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+git add .
+git commit -m"commit 02 de DavidRodriguez"
+git push origin feature
+
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+nano resumenSoftware.txt
+nano resumenHardware.txt
+history
+git add .
+git commit -m"commit 03 de DavidRodriguez"
+git push origin main
